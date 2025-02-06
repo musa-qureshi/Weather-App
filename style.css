@@ -136,7 +136,7 @@ body::before {
 
 /* Forecast */
 
-.forecast-item-container {
+.forecast-items-container {
     display: flex;
     gap: 15px;
     overflow-x: scroll;
@@ -144,16 +144,16 @@ body::before {
     padding-bottom: 12px;
 }
 
-.forecast-item-container::-webkit-scrollbar {
+.forecast-items-container::-webkit-scrollbar {
     height: 8px;
 }
 
-.forecast-item-container::-webkit-scrollbar-track {
+.forecast-items-container::-webkit-scrollbar-track {
     background: rgb(0,0,0,0.1);
     border-radius: 99px;
 }
 
-.forecast-item-container::-webkit-scrollbar-thumb {
+.forecast-items-container::-webkit-scrollbar-thumb {
     background: rgb(0,0,0,0.15);
     border-radius: 99px;
 }
